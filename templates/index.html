@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Shape Generator</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Generate Shapes with PyTurtle.</h1>
+    </header>
+
+    <main>
+        <form id="shapeForm">
+            <label for="shape">Choose a shape:</label>
+            <select id="shape" name="shape">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+                <option value="triangle">Triangle</option>
+                <option value="pentagon">Pentagon</option>
+            </select>
+            <button type="button" onclick="generateShape()">Generate</button>
+
+            <!-- <button type="button" onclick="closeWindow()">Close Turtle Window</button> -->
+        </form>
+    </main>
+
+    <footer>
+        <h6>A simple project to generate shapes using PyTurtle.</h6>
+    </footer>
+
+    <script src="/static/app.js"></script>
+    
+</body> 
+
+</html>
